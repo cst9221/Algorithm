@@ -56,7 +56,7 @@ const Bubble = () => {
       a[o + 1] = t
       setArray(a)
     }
-    if (c <= o) {
+    if (c - 1 <= o) {
       setCurr((prev) => prev - 1)
       setOther(0)
     } else {
